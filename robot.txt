@@ -1,0 +1,23 @@
+This code provides a dynamic Bitcoin price tracker with additional features such as the Fear and Greed Index, Bitcoin market dominance, and Polymarket prediction. The page updates every minute to reflect the latest data.
+
+### Key Features:
+
+1. **Bitcoin Price Tracker**: Displays the current price of Bitcoin in USD.
+2. **Fear and Greed Index**: Shows the current Fear and Greed Index with color-coded classifications.
+3. **Bitcoin Market Dominance**: Indicates the percentage of global market capitalization controlled by Bitcoin.
+4. **Polymarket Prediction**: Provides a prediction for the future value of a specific token on Polymarket.
+
+### How It Works:
+
+- **Price Update**: The `updatePrice` function fetches the current Bitcoin price from CoinGecko and updates the page every minute.
+- **Fear and Greed Index**: The `updateFearGreedIndex` function fetches the Fear and Greed Index from Alternative Metrics and updates the page every minute.
+- **Bitcoin Dominance**: The `getBitcoinDominance` function fetches the market dominance of Bitcoin from CoinGecko and updates the page every minute.
+- **Polymarket Prediction**: The `getPolyMarketBet` function fetches a prediction for a specific token on Polymarket and updates the page every minute.
+
+### Additional Enhancements:
+
+- **Error Handling**: The code includes basic error handling to display messages if data fetching fails.
+- **Responsive Design**: The HTML structure is designed to be responsive, ensuring it looks good on various devices.
+- **Styling**: Basic styling is applied using Tailwind CSS for a clean and modern look.
+
+This setup provides a comprehensive view of the current state of Bitcoin and related market indicators.
